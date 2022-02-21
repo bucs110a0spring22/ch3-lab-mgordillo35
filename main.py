@@ -41,16 +41,19 @@ leonardo.goto(-100,-20)
 # Part B - complete part B here
 
 leonardo.hideturtle()
-size_length = 30
-sides_list = [3,4,6,9,12]
+num_of_sides = [3,4,6,9,12]
+michelangelo.goto(-20,-50)
+michelangelo.speed(1)
 
-for i in range(sides_list[i]):
-  michelangelo.pendown()
-  michelangelo.forward(50)
-  michelangelo.left(360/sides_list)
-  michelangelo.pendown()
-
-
-
-
+for i in range (len(num_of_sides)):
+  michelangelo.clear()
+  for j in range (num_of_sides[i]):
+    angle = 360/num_of_sides[i]
+    michelangelo.pd()
+    michelangelo.forward(50)
+    michelangelo.left(angle)
+    michelangelo.pu()
+    
 window.exitonclick()
+
+
