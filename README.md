@@ -8,18 +8,20 @@
 _Replace anything surrounded by the `< >` symbols._
 
 ## SUMMARY:
- < Provide a short description of your program's functionality. No more than a couple sentences. >
+ In this lab, we learned about python data and modules that allowed us to create a race for turtles. After the race was over we were asked to create polygons using loops. 
 
 ## GRACE DAYS
-Grace days used for this assignment: < # >
+Grace days used for this assignment: 0
 
-Grace days remaining: < # >/5
+Grace days remaining: 5/5
 
 ## KNOWN BUGS AND INCOMPLETE PARTS:
  < What parts of the project you were not able to complete >
 
 ## REFERENCES:
- < List any outside resources used >
+ Class Notes 
+ 
+ https://docs.python.org/3/library/turtle.html - turtle library
 
 ## MISCELLANEOUS COMMENTS:
- < Anything you would like the grader to know >
+none 
